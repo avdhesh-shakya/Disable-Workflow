@@ -1,10 +1,13 @@
 name: Disable Workflow
+
 on:
   push:
-    branches: [ main ]
+    branches: [ Disable-Workflow ]
+    
 jobs:
   disable:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Avdhesh
         run: "Disable Workflow DevOps"
